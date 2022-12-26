@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <title>Mensagem enviada | Agência de publicidade — Preludica</title>
+  </head>
+  <body>
+
+    <div class="floating-button">
+      <a href="https://wa.me/5554993370994" target="blank"><img src="../img/icon/whatsapp_white.svg"></a>
+    </div>
+
+    <header id="header">
+      <div class="header-container">
+        <a href="https://preludica.com/"><img id="logo" src="../img/icon.svg"></a>
+        <nav id="nav">
+          <button id="btn-mobile">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu">
+            <span>
+              <li><a href="https://preludica.com/"><small>Home</small></a></li>
+              <li><a href="../sobre/"><small>Sobre</small></a></li>
+              <li><a href="#work"><small>Portfólio</small></a></li>
+              <li><a href="../contato/"><small>Contato</small></a></li>
+            </span>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="contato-obrigado">
+      <div class="contato-obrigado-container">
+        <small><b>Mensagem enviada! Em breve retornaremos.</b></small>
+      </div>
+    </section>
+
+    <section id="page-contato">
+      <div class="page-contato-container">
+        <div class="page-contato-container-column">
+          <h1>Bora bater um papo?</h1>
+          <p>Que tal nos contar um pouco sobre você e o seu negócio!?</p>
+        </div>
+        <div class="formcontato">
+          <form class="form" action="../php/formcontato.php" method="POST">
+            <span>
+              <small><b>Nome</b></small>
+              <input class="field" name="nome">
+            </span>
+            <span>
+              <small><b>Email</b></small>
+              <input class="field" name="email">
+            </span>
+            <span>
+              <small><b>Telefone (ddd)</b></small>
+              <input class="field" name="telefone">
+            </span>
+            <span>
+              <small><b>Mensagem</b></small>
+              <textarea class="field" name="mensagem"></textarea>
+            </span>
+            <span>
+              <button class="field button-formcontato" type="submit" value="Enviar">
+                <small><b>Enviar mensagem</b></small>
+              </button>
+            </span>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-container-one">
+          <small style="color: var(--gray);">© <script>document.write(new Date().getFullYear())</script> - Preludica</small>
+        </div>
+        <div class="footer-container-two">
+          <a id="button"class="button1" href="mailto:ola@preludica.com"><small>ola@preludica.com</small></a>
+          <div class="footer-container-two-social">
+            <a href="https://wa.me/5554993370994" target="blank"><img src="../img/icon/whatsapp.svg"></a>
+            <a href="https://www.instagram.com/preludicacom/" target="blank"><img src="../img/icon/instagram.svg"></a>
+            <a href="https://www.linkedin.com/company/preludica/" target="blank"><img src="../img/icon/linkedin.svg"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/main-menu.js"></script>
+  </body>
+</html>
